@@ -9,7 +9,6 @@ public class EmployeeService {
 
         Set<Employee> sortedSet = new TreeSet<>(new EmployeeComparator());
         sortedSet.addAll(employees);
-
         return sortedSet;
     }
 }
